@@ -2,6 +2,7 @@ import React from 'react';
 import { SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import { styles } from './styles';
+import { Empty } from '../../components/Empty';
 
 export function Home() {
   return (
@@ -30,6 +31,7 @@ export function Home() {
             <Text style={styles.amount}>0</Text>
           </View>
         </View>
+        <Empty />
       </View>
     </SafeAreaView>
   );
