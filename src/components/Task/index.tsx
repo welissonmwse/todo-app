@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 import Checkbox from 'expo-checkbox';

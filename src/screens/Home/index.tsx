@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Alert, FlatList, SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { useState } from 'react';
+import { FlatList, SafeAreaView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import uuid from 'react-native-uuid';
 import { styles } from './styles';
@@ -47,7 +47,8 @@ export function Home() {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.header}>
-        <Text style={{fontSize: 24, color: '#4EA8DE', fontWeight: 'bold'}}>Todo</Text>
+        <AntDesign name="checkcircle" size={24} color="#4EA8DE" />
+        <Text style={{fontSize: 24, color: '#8284FA', fontWeight: 'bold'}}>Todo</Text>
       </View>
       <View style={styles.form}>
         <TextInput 
